@@ -39,12 +39,23 @@ body {
   display: none;
 }
 
-textarea {
+textarea, iframe {
   box-sizing: border-box;
   margin: 0;
   display: block;
 }
+iframe {
+  border: 0px none;
+}
+#result, #result > iframe,
 #code, #code .CodeMirror, #code > textarea {
   width: 50vw;
   height: calc(100vh - 120px);
+}
+
+/* Alternate: enable flex */
+#result {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

@@ -1,0 +1,11 @@
+node_modules/*/README.md
+node_modules/*/CHANGELOG.md
+node_modules/*/package.json
+
+node_modules/qmlweb/lib/*.js*
+!node_modules/qmlweb/lib/*.min.js*
+node_modules/qmlweb/*.js
+node_modules/qmlweb/tests
+node_modules/qmlweb/src
+
+*~

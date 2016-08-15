@@ -1,0 +1,18 @@
+{
+  "name": "qmlweb.github.io",
+  "version": "1.0.0",
+  "description": "QmlWeb website",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^4.2.0",
+    "qmlweb": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qmlweb/qmlweb.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qmlweb/qmlweb.github.io/issues"
+  },
+  "homepage": "https://github.com/qmlweb/qmlweb.github.io#readme"
+}

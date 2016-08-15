@@ -1,0 +1,25 @@
+@import url('../node_modules/normalize.css/normalize.css');
+
+#header {
+  background: #59b312;
+  background-image: url('../node_modules/qmlweb/misc/logo.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+
+#buttons {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  text-align: right;
+}
+
+#buttons p {
+  margin: 5px 0;
+}
+
+#footer {
+  display: none;
+}

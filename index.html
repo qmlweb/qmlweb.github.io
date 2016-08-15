@@ -5,6 +5,10 @@
     <meta name="description" content="QmlWeb : A QML engine in a web browser.">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="node_modules/codemirror/lib/codemirror.css">
+    <script defer src="node_modules/codemirror/lib/codemirror.js"></script>
+    <script defer src="node_modules/codemirror/mode/javascript/javascript.js"></script>
+    <script defer src="main.js"></script>
     <title>QmlWeb</title>
   </head>
   <body>
@@ -23,8 +27,27 @@
       </section>
     </header>
 
-    <section id="main">
-    </section>
+    <div id="code">
+<textarea>
+import QtQuick 2.0
+
+Rectangle {
+ width: 500; height: 200
+ color: "lightgray"
+
+ Text {
+   id: helloText
+   text: "Hello world!"
+   anchors.verticalCenter: parent.verticalCenter
+   anchors.horizontalCenter: parent.horizontalCenter
+   font.pointSize: 24; font.bold: true
+ }
+}
+</textarea>
+    </div>
+
+    <div id="result">
+    </div>
 
     <footer id="footer">
     </footer>

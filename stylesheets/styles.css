@@ -1,5 +1,13 @@
 @import url('../node_modules/normalize.css/normalize.css');
 
+/*
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+*/
+
 #header {
   background: #59b312;
   background-image: url('../node_modules/qmlweb/misc/logo.svg');
@@ -7,6 +15,12 @@
   background-repeat: no-repeat;
   background-size: contain;
   text-align: center;
+  height: 120px;
+  width: 100vw;
+}
+
+#project_tagline {
+  margin-bottom: 0;
 }
 
 #buttons {
@@ -21,5 +35,16 @@
 }
 
 #footer {
+  width: 100vw;
   display: none;
+}
+
+textarea {
+  box-sizing: border-box;
+  margin: 0;
+  display: block;
+}
+#code, #code .CodeMirror, #code > textarea {
+  width: 50vw;
+  height: calc(100vh - 120px);
 }

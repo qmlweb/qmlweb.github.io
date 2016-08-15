@@ -1,11 +1,21 @@
 node_modules/*/README.md
 node_modules/*/CHANGELOG.md
+node_modules/*/CONTRIBUTING.md
 node_modules/*/package.json
+node_modules/*/bower.json
 
 node_modules/qmlweb/lib/*.js*
 !node_modules/qmlweb/lib/*.min.js*
 node_modules/qmlweb/*.js
 node_modules/qmlweb/tests
 node_modules/qmlweb/src
+
+node_modules/codemirror/bin
+node_modules/codemirror/addon/*
+node_modules/codemirror/keymap/*
+node_modules/codemirror/theme/*
+node_modules/codemirror/mode/*
+!node_modules/codemirror/mode/meta.js
+!node_modules/codemirror/mode/javascript
 
 *~

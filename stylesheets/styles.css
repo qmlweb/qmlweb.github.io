@@ -1,15 +1,19 @@
 @import url('../node_modules/normalize.css/normalize.css');
 
-/*
 body {
+  font-family: 'PT Sans', 'Liberation Sans', 'Calibri', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+/*
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
 */
+}
 
 #header {
   background: #59b312;
+  color: #fff;
   background-image: url('../node_modules/qmlweb/misc/logo.svg');
   background-position: left center;
   background-repeat: no-repeat;
@@ -19,8 +23,18 @@ body {
   width: 100vw;
 }
 
-#project_tagline {
-  margin-bottom: 0;
+#title {
+  margin: 0;
+  font-size: 42px;
+  font-weight: normal;
+}
+
+#tagline {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: -1px;
 }
 
 #buttons {
@@ -58,4 +72,5 @@ iframe {
   position: absolute;
   bottom: 0;
   right: 0;
+  background: #333;
 }

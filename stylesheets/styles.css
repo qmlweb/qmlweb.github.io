@@ -37,6 +37,20 @@ body {
   letter-spacing: -1px;
 }
 
+#github {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  text-decoration: none;
+  padding: 7px 45px 7px 10px;
+  color: #fff;
+  background: url('../images/octocat-mark.svg') #08f no-repeat 95% 50%;
+  background-size: 30px;
+  font-weight: bold;
+  border-radius: 0 0 5px 5px;
+}
+
 #buttons {
   position: absolute;
   top: 50px;

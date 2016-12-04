@@ -1,4 +1,4 @@
-@import url('../node_modules/normalize.css/normalize.css');
+@import url('../deps/normalize.css/normalize.css');
 
 body {
   font-family: 'PT Sans', 'Liberation Sans', 'Calibri', Helvetica, Arial, sans-serif;
@@ -14,7 +14,7 @@ body {
 #header {
   background: #59b312;
   color: #fff;
-  background-image: url('../node_modules/qmlweb/misc/logo.svg');
+  background-image: url('../deps/qmlweb/misc/logo.svg');
   background-position: left center;
   background-repeat: no-repeat;
   background-size: contain;

@@ -1,9 +1,10 @@
 window.addEventListener("DOMContentLoaded", function () {
   var textarea = document.querySelector('#code textarea');
+  var debouncetimer;
   var editor = CodeMirror.fromTextArea(textarea, {
     lineNumbers: true
   });
-
+  
   var iframe = document.querySelector("#result iframe");
   iframe.addEventListener("load", function () {
     iframe.contentWindow.postMessage(textarea.value, "*");
@@ -17,7 +18,8 @@ window.addEventListener("DOMContentLoaded", function () {
 
   editor.on("change", function() {
     textarea.value = editor.getValue();
-    execute();
+    clearTimeout(debouncetimer);
+    debouncetimer = setTimeout(execute, 1000)
   });
 
   execute();

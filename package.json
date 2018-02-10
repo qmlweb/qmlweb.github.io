@@ -4,8 +4,8 @@
   "description": "QmlWeb website",
   "main": "index.js",
   "dependencies": {
-    "codemirror": "^5.21.0",
-    "normalize.css": "^4.2.0",
+    "codemirror": "^5.34.0",
+    "normalize.css": "^8.0.0",
     "qmlweb": "^0.2.0"
   },
   "repository": {

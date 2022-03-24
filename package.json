@@ -6,7 +6,7 @@
   "dependencies": {
     "codemirror": "^5.34.0",
     "normalize.css": "^8.0.0",
-    "qmlweb": "^0.2.0"
+    "qmlweb": "^0.3.0"
   },
   "repository": {
     "type": "git",

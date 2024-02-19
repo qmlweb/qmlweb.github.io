@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/qmlweb/qmlweb.github.io/issues"
   },
-  "homepage": "https://github.com/qmlweb/qmlweb.github.io#readme"
+  "homepage": "https://github.com/qmlweb/qmlweb.github.io#readme",
+  "devDependencies": {
+    "vite": "^5.1.3"
+  }
 }

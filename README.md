@@ -13,6 +13,5 @@ Prepare qmlweb.github.io repository:
 6. git clone --recurse-submodules https://github.com/qmlweb/qmlweb.github.io.git (clone qmlweb webpage repository)
 7. npm link qmlweb
 8. npm install (install dependencies)
-9. npm install vite (install web server)
-10. npx vite (this run webserwer, open browser and go to http://localhost:5173/ , qmlweb.github.io page shoud appear)
+9. npx vite (this run webserwer, open browser and go to http://localhost:5173/ , qmlweb.github.io page shoud appear)
  

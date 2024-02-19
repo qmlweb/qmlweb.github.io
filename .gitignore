@@ -18,6 +18,9 @@ deps/codemirror/mode/*
 !deps/codemirror/mode/meta.js
 !deps/codemirror/mode/javascript
 
+#npx vite build
+dist/
+
 node_modules/
 
 package-lock.json

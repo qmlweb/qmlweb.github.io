@@ -14,4 +14,5 @@ Prepare qmlweb.github.io repository:
 7. npm link qmlweb
 8. npm install (install dependencies)
 9. npx vite (this run webserwer, open browser and go to http://localhost:5173/ , qmlweb.github.io page shoud appear)
+10. npx vite build (build page, page will be build in ./dist folder)
  
